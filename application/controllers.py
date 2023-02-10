@@ -1,6 +1,11 @@
-from flask import current_app as app
+from flask import current_app as app, request, render_template
+import os
 
-@app.route("/")
+@app.route("/", methods = ["GET", "POST"])
 def home():
-    return "<h1>Homepage</h1>"
+    if request.method == "POST":
+        f = request.files["image"]
+        path = os.path.join(app.config['UPLOAD_FOLDER'], "inputImage.jpg")
+        f.save(path)
+    return render_template("index.html")
     
