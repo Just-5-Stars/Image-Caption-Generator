@@ -29,4 +29,4 @@ The [Flickr8k](https://www.kaggle.com/datasets/shadabhussain/flickr8k) dataset h
 [Arun M]()  
 
 # Project Manager
-[Rohan Shah]()  
+[Rohan Shah](https://www.linkedin.com/in/rohan-shah-315366153/)  
