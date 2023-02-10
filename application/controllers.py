@@ -8,4 +8,3 @@ def home():
         path = os.path.join(app.config['UPLOAD_FOLDER'], "inputImage.jpg")
         f.save(path)
     return render_template("index.html")
-    
