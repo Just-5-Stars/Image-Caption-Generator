@@ -11,5 +11,8 @@
         <input type="file" name="image">
         <button type="submit">Submit</button>
     </form>
+    {% if caption != "" %}
+        <p> {{ caption }} </p>
+    {% endif %}
 </body>
 </html>
