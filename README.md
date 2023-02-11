@@ -29,7 +29,7 @@ The [Flickr8k](https://www.kaggle.com/datasets/shadabhussain/flickr8k) dataset h
 [R Aditya](https://github.com/adityarags)  
  
 # Project Guide
-[Arun M]()  
+[Arun M](https://www.linkedin.com/in/arun-madakannu-bb919a20b/)  
 
 # Project Manager
 [Rohan Shah](https://www.linkedin.com/in/rohan-shah-315366153/)  
