@@ -3,8 +3,8 @@
      </div>
 
 <div aligh="center" style="height: 50px">
-      ![image](https://user-images.githubusercontent.com/59119736/218529912-7708724c-d2f7-41a3-a1fd-ea3fe55b9c73.png)  
-      A guided internship by [Spartificial](https://spartificial.com/)
+      <img src="https://user-images.githubusercontent.com/59119736/218529912-7708724c-d2f7-41a3-a1fd-ea3fe55b9c73.png">
+      <p>A guided internship by <a href="https://spartificial.com"> Spartificial </a><p>
 </div>
 
 
