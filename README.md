@@ -2,8 +2,10 @@
       <h1> Image Caption Generator </h1>
      </div>
 
-![image](https://user-images.githubusercontent.com/59119736/218529912-7708724c-d2f7-41a3-a1fd-ea3fe55b9c73.png)  
-A guided internship by [Spartificial](https://spartificial.com/)
+<div aligh="center" style="height: 50px">
+      ![image](https://user-images.githubusercontent.com/59119736/218529912-7708724c-d2f7-41a3-a1fd-ea3fe55b9c73.png)  
+      A guided internship by [Spartificial](https://spartificial.com/)
+</div>
 
 
 # Description
