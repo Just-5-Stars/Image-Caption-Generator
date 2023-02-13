@@ -3,7 +3,7 @@
      </div>
 
 A guided internship by [Spartificial](https://spartificial.com/)
-![Spartificial](https://spartificial.com/assets/WhiteLogo.svg)
+![image](https://user-images.githubusercontent.com/59119736/218529537-95ab5c5f-5fd4-4eee-ad03-d0c7ce17c1e6.png)
 
 # Description
 Machine Learning based Image Captioning System 
