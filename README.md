@@ -2,6 +2,8 @@
       <h1> Image Caption Generator </h1>
      </div>
 
+A guided internship by [Spartificial](https://spartificial.com/)
+![Spartificial](https://spartificial.com/assets/WhiteLogo.svg)
 
 # Description
 Machine Learning based Image Captioning System 
