@@ -3,8 +3,8 @@
      </div>
 
 <div align="center">
-      <img src="https://user-images.githubusercontent.com/59119736/218529912-7708724c-d2f7-41a3-a1fd-ea3fe55b9c73.png">
-      <p>A guided internship by <a href="https://spartificial.com"> Spartificial </a><p>
+      <img src="https://user-images.githubusercontent.com/59119736/219688189-dd0af383-b3e0-425c-afe6-0ecbea100a02.png">
+      <p>A guided internship by <a href="https://spartificial.com"> Spartificial Innovations Private Limited </a><p>
 </div>
 
 
