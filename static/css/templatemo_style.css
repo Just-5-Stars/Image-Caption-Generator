@@ -1,0 +1,122 @@
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 13px;
+	line-height: 1.4em;
+	background-repeat: repeat-x;
+	background-position: top;
+}
+
+a, a:link, a:visited { 
+	color: #7f0d0d; 
+	font-weight: normal; 
+	text-decoration: none; 
+}
+
+a:hover { 
+	text-decoration: none;
+}
+
+a.more { 
+	display: inline-block; 
+	padding-left: 12px; 
+}
+
+p { 
+	margin: 0 0 10px 0; 
+	padding: 0; 
+}
+
+
+blockquote { 
+	font-style: italic; 
+	margin: 0 0 0 10px;
+}
+
+cite { 
+	font-weight: bold; 
+	color:#000; 
+}
+
+cite a, cite a:link, cite a:visited  { 
+	font-size: 12px; 
+	text-decoration: none; 
+	font-style: normal;
+}
+
+cite span { 
+	font-weight: 400; 
+	color: #7f0d0d; 
+}
+
+h1, h2, h3, h4, h5, h6 { color: #2c2c2c; font-weight: normal; font-family: 'Bree Serif', serif; }
+h1 { font-size: 48px; margin: 0 0 30px; padding: 5px 0 ; }
+h2 { font-size: 30px; margin: 0 0 25px; padding: 5px 0 }
+h3 { font-size: 24px; margin: 0 0 20px; padding: 0; }
+h4 { font-size: 18px; margin: 0 0 15px; padding: 0; }
+h5 { font-size: 16px; margin: 0 0 10px; padding: 0;  }
+h6 { font-size: 12px; margin: 0 0 5px; padding: 0; }
+
+.cleaner { clear: both }
+.h10 { height: 10px }
+.h20 { height: 20px }
+.h30 { height: 30px }
+.h40 { height: 40px }
+.h50 { height: 50px }
+.divider { margin-bottom: 40px; padding-bottom: 20px; background: url(../images/templatemo_divider.png) repeat-x bottom; }
+
+.image_fl { float: left; margin: 3px 20px 5px 0 }
+.image_fr { float: right; margin: 3px 0 5px 20px }
+
+.float_l { float: left }
+.float_r { float: right }
+
+
+#templatemo_header_wrapper {
+	width: 960px;
+	margin: 0 auto;
+	padding: 40px 10px 20px;
+  padding-left: 0px;
+}
+
+#templatemo_slider {
+ 	width: 100%;
+	margin: 0 auto;
+	padding-top: 115px;
+  padding-left: 0px;
+  padding-right:0px;
+}
+
+#templatemo_main {
+	width: 100%;
+	margin: 0 auto;
+	padding: 34px 10px 20px;
+  padding-bottom: 0px;
+  padding-left:0px;
+  padding-right: 0px;
+	background: #f6f3f3;
+	border: 1px solid #fff;
+
+}
+
+
+#slider-left-but { 
+	display: block; 
+	width: 30px; 
+	height: 30px; 
+	border: none; 
+	background: url(../images/templatemo_slider_left.png) no-repeat; 
+	margin-right: 10px; 
+}
+
+#slider-right-but { 
+	display: block; 
+	width: 30px; 
+	height: 30px; 
+	border: none; 
+	background: url(../images/templatemo_slider_right.png) no-repeat; 
+}
+
+
+
