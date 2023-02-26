@@ -32,6 +32,13 @@
 
   </script>
 
+  <script>
+    function play_Audio() {
+      var snd = new Audio("static/input/caption_audio.mp3");
+      snd.play()
+    }
+
+  </script>
   <!-- Load the CloudCarousel JavaScript file -->
   <script type="text/JavaScript" src="static/js/cloud-carousel.1.0.5.js"></script>
 
@@ -168,31 +175,28 @@
                     <input type="file" name="image" accept="image/*" onchange="loadFile(event)">
                     <br>
                     <br>
-                    <p><img id="output" width="200" /></p>
+                    <!-- <p><img id="output" width="200" /></p> -->
                     <input id="bt" type="submit" value="Submit" name="submit">
                     
-                    <script>
-                      var loadFile = function (event) {
-                        var image = document.getElementById('output');
-                        image.src = URL.createObjectURL(event.target.files[0]);
-                      };
-                    </script>
                     
                     <h5>Text to Speech:</h5>
-                    <button id="mic" style="font-size:25px"><i class="fa fa-microphone"></i></button>
+                    <button type = "button" onclick="play_Audio()" style="font-size:25px"><i class="fa fa-microphone"></i></button>
+                    
+                    
+               
+                  
                   </form>
                 </div>
                 
                 <div class="cards">
                   <div class="card">
                     <h2 class="card-title">View Caption </h2>
-                    <img
-                      src="https://images.unsplash.com/photo-1591485423007-765bde4139ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80"
-                      alt="">
+                    <img src="{{ src }}" alt="" >
+
                     <div class="card-desc">
                       <div id="caption">
                         <h4>
-                          <center>This is the caption generated for the image uploaded</center>
+                          <center>{{ caption }}</center>
                         </h4> 
                       </div>
                     </div>
