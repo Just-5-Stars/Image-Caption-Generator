@@ -1,4 +1,4 @@
-from tensorflow.keras.applications.vgg16 import VGG16, preprocess_input
+from tensorflow.keras.applications.resnet import ResNet50, preprocess_input
 from tensorflow.keras.models import Model
 from tensorflow.keras.preprocessing.image import load_img, img_to_array
 from tensorflow.keras.preprocessing.text import Tokenizer
@@ -21,12 +21,12 @@ vocab_size = len(tokenizer.word_index) + 1
 
 max_length = max(len(caption.split()) for caption in all_captions)
 
-vgg_model = VGG16() 
+vgg_model = ResNet50() 
 
 vgg_model = Model(inputs=vgg_model.inputs,             
                   outputs=vgg_model.layers[-2].output)
 
-model = tf.keras.models.load_model("model//backup_model30k.h5")
+model = tf.keras.models.load_model("model//ResNet50_Flickr30k_model.h5")
 
 def idx_to_word(integer, tokenizer):
     for word, index in tokenizer.word_index.items():
@@ -51,7 +51,7 @@ def predict_caption(model, image, tokenizer, max_length):
 
 
 def predict():
-    image_path = 'app_data/inputImage.jpg'
+    image_path = 'static/input/inputImage.png'
     image = load_img(image_path, target_size=(224, 224))
     image = img_to_array(image)
     image = image.reshape((1, image.shape[0], image.shape[1], image.shape[2]))

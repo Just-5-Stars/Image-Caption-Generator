@@ -1,3 +1,3 @@
 class Config():
     DEBUG = True
-    UPLOAD_FOLDER = "app_data"
+    UPLOAD_FOLDER = "static/input"
