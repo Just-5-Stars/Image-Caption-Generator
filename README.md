@@ -14,7 +14,7 @@ Machine Learning based Image Captioning System
 # Features
 ✨ Image Feature Extraction: EfficientNetB4  
 ✨ Natural Language Processing  
-✨ Flickr8k Dataset  
+✨ Flickr30K Dataset  
 ✨ Model Deployment - Flask  
 
 # Dataset
