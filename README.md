@@ -15,6 +15,7 @@ Machine Learning based Image Captioning System
 ✨ Natural Language Processing  
 ✨ Flickr30K Dataset  
 ✨ Model Deployment - Flask  
+✨ Final Jupyter Notebook(Model Development) - [Notebook](https://github.com/Just-5-Stars/Image-Caption-Generator/blob/main/Final%20Notebook/Image%20Caption%20Generator.ipynb) 
 
 # Dataset
 The [Flickr30k](https://www.kaggle.com/datasets/eeshawn/flickr30k) dataset has been used for the development of this project.  
@@ -26,6 +27,7 @@ The Validtion Dataset used: [Dataset](https://www.kaggle.com/datasets/shubhpatha
  # Deployment
  ![demo video-Snap Narratives](https://user-images.githubusercontent.com/71694263/221645047-c435cbc1-d7a6-4332-a1fe-8927258f7bff.gif)
  
+
 # References
 - [Image Caption Generator using Python](https://www.hackersrealm.net/post/image-caption-generator-using-python)
       
