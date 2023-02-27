@@ -6,8 +6,8 @@ from gtts import gTTS
 
 @app.route("/", methods = ["GET", "POST"])
 def home():
-    caption_pred = ""
-    src = "https://images.unsplash.com/photo-1591485423007-765bde4139ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80"
+    caption_pred = "This is a placeholder image."
+    src = "https://user-images.githubusercontent.com/71700207/221510419-2761d739-6184-4627-bbfa-a2656f47e516.jpg"
     if request.method == "POST":
         f = request.files["image"]
         path = os.path.join(app.config['UPLOAD_FOLDER'], "inputImage.png")
