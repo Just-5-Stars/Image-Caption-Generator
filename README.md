@@ -12,7 +12,7 @@ Machine Learning based Image Captioning System
 
 # Features
 ✨ Image Feature Extraction: EfficientNetB4  
-✨ Natural Language Processing  
+✨ Natural Language Processing - LSTM
 ✨ Flickr30K Dataset  
 ✨ Model Deployment - Flask  
 ✨ Final Jupyter Notebook(Model Development) - [Notebook](https://github.com/Just-5-Stars/Image-Caption-Generator/blob/main/Final%20Notebook/Image%20Caption%20Generator.ipynb) 
