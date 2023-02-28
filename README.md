@@ -32,7 +32,9 @@ The Validtion Dataset used: [Dataset](https://www.kaggle.com/datasets/shubhpatha
 - [Image Caption Generator using Python](https://www.hackersrealm.net/post/image-caption-generator-using-python)
       
 # Contributors
-
+<a href="https://github.com/Just-5-Stars/Image-Caption-Generator/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Just-5-Stars/Image-Caption-Generator" />
+</a>
 
 [Urvashi Indu](https://github.com/urvashi16)  
 [Ayushi Indu](https://github.com/ayushi200116)  
