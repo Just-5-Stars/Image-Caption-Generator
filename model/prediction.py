@@ -26,7 +26,7 @@ efficientnet_model = EfficientNetB4()
 efficientnet_model = Model(inputs=efficientnet_model.inputs,             
                   outputs=efficientnet_model.layers[-2].output)
 
-model = tf.keras.models.load_model("model//efficientnet_model30k.h5")
+# model = tf.keras.models.load_model("model//efficientnet_model30k.h5")
 
 def idx_to_word(integer, tokenizer):
     for word, index in tokenizer.word_index.items():
