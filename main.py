@@ -6,4 +6,4 @@ app.config.from_object(Config)
 app.app_context().push()
 
 from application.controllers import *
-app.run(host = "0.0.0.0", port = 10000)
+app.run(host = "0.0.0.0", port = 8888)
